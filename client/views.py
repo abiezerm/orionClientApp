@@ -20,6 +20,8 @@ def apiOverview(request):
         'Create': '/client-create/',
         'Update': '/client-update/<str:pk>',
         'Delete': '/client-delete/<str:pk>',
+        'Address list': '/address-list',
+        'Address create': '/address-create',
     }
     return Response(api_urls)
 
