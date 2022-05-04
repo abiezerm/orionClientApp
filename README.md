@@ -8,10 +8,3 @@ Asegurate de tener python y django instalados en tu maquina, en caso de no ser e
 Una vez instalados procure abrir el programa en la ruta donde se encuentra el archivo "requirements.txt" y corra el comando **"pip install requirements.txt"** esto instalara todas las dependencias que use a la hora de desarrollar la API y le permitira correrla.
 
 Luego de instalar las dependencias, corra el comando **"python manage.py runserver"** esto le permitira correr la Api y probarla.
-
-# Instalacion Frontend
-
-Asegurate de estar en el directorio donde se encuentra el directorio frontend y corre los siguientes comandos:
-
-- npm install
-- npm start
